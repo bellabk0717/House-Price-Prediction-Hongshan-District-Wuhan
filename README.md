@@ -9,7 +9,8 @@ The workflow includes:
 - Model benchmarking (Linear Regression, Ridge, Random Forest, XGBoost)  
 - SHAP-based interpretability  
 
-本项目基于 **链家网二手房数据**，构建了一个端到端的机器学习流程，主要包括：  
+本项目基于 **链家网二手房数据**，构建了一个端到端的机器学习流程，主要包括： 
+- 数据爬取
 - 数据清洗与特征工程  
 - 探索性数据分析（EDA）  
 - 多模型对比（线性回归、岭回归、随机森林、XGBoost）  
@@ -18,7 +19,7 @@ The workflow includes:
 ---
 
 ## 📂 Project Structure | 项目结构  
-- `data/` : Raw and processed datasets (原始与处理后的数据，不上传 GitHub)  
+- `data/` : Raw and processed datasets (原始与处理后的数据, GitHub未上传)  
 - `notebooks/` : Jupyter notebooks for analysis (分析过程笔记本)  
 - `src/` : Python scripts (数据清洗、特征工程、建模与可视化脚本)  
 - `reports/` : Figures and final report (图表与最终报告)  
